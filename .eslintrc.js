@@ -82,5 +82,6 @@ module.exports = {
         ignoreOnInitialization: true,
       },
     ],
+    'react/no-unescaped-entities': [0, { forbid: ['"'] }],
   },
 };
